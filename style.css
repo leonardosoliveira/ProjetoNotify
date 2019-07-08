@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    
+}
+
+
+header{
+border-top: 5px solid  rgb(83, 198, 94);
+background-image: url(imagens/banner.png);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.textoini h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size: 35pt;
+    
+}
+
+.textoini{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 350px;
+}
+
+.textoini h1 span{
+    color:#2dcc70;
+}
+
+.textoini p{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+}
+
+.textoini section{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    margin-top: 20px;
+    width: 180px;
+}
+
+.textoini section a{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoini section a:hover{
+    background-color: #2dcc6fbd;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+header div:nth-child(1){
+    display: inline-block;
+}
+header div:nth-child(2){
+    align-items: flex-end;
+}
+
+
+aside{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15pt;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+aside img{
+    background-color: #2dcc6fbd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+
+article{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+}
+
+
+article div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+
+}
+article img{
+    max-width:850px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+    
+}
+
+
+.fotospessoas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotospessoas > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.imagensrosto img{
+    border: 2px solid rgb(83, 198, 94);
+    border-radius: 50px;
+    margin: 0px 8px;
+}
+
+.fotospessoas p{
+    font-size: 15px;
+    color: darkgray;
+    font-style: italic;
+    text-align: center;
+    width: 50vw;
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    height: 40px;
+    
+}
+
+footer div a{
+    text-decoration: none;
+    font-size: 17;
+}
+
+
+
+
+
+
+
+
